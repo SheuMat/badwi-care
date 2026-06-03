@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1A1A2E;
+  --purple-50:  #F5F0FA;
+  --purple-100: #EDE6F8;
+  --purple-300: #C4A8E0;
+  --purple-500: #7B4FA6;
+  --purple-700: #3D1A6E;
+  --purple-900: #1E0A3C;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Poppins', system-ui, sans-serif;
+  color: #1A1A2E;
+  background: #ffffff;
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+/* Swiper pagination */
+.swiper-pagination-bullet {
+  background: rgba(255,255,255,.45) !important;
+  width: 10px !important;
+  height: 10px !important;
+  transition: all .3s ease !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+  width: 28px !important;
+  border-radius: 9999px !important;
+}
+
+/* Swiper nav arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffffff !important;
+  background: rgba(255,255,255,.15) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255,255,255,.25) !important;
+  border-radius: 50% !important;
+  width: 48px !important;
+  height: 48px !important;
+  transition: background .3s !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after { font-size: 16px !important; font-weight: 700 !important; }
+.swiper-button-prev:hover,
+.swiper-button-next:hover { background: rgba(255,255,255,.3) !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F5F0FA; }
+::-webkit-scrollbar-thumb { background: #9B72C8; border-radius: 9999px; }
+
+/* Selection */
+::selection { background: #C4A8E0; color: #1E0A3C; }
+
+/* Focus */
+:focus-visible { outline: 3px solid #7B4FA6; outline-offset: 3px; border-radius: 4px; }
+
+/* Forms */
+input, textarea, select { font-family: inherit; }
+input::placeholder, textarea::placeholder { color: #9E98B8; }

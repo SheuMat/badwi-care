@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
 
 // Swiper CSS
 import "swiper/css";
@@ -46,12 +47,12 @@ const slides = [
   },
 ];
 
-const textVariants = {
+const textVariants: Variants = {
   hidden:  { opacity: 0, y: 32 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.18, duration: 0.65, ease: [0.4, 0, 0.2, 1] },
+    transition: { delay: i * 0.18, duration: 0.65, ease: "easeOut" },
   }),
 };
 

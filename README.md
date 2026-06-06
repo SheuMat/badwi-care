@@ -1,6 +1,6 @@
-# Badwi Care & Companionship Static Website
+# Badwi Care and Companionship Service Static Website
 
-This repository now includes a simple static HTML, CSS and JavaScript website for Badwi Care & Companionship.
+This repository now includes a simple static HTML, CSS and JavaScript website for Badwi Care and Companionship Service.
 
 ## Pages
 
@@ -35,7 +35,7 @@ The contact details currently used are:
 
 - Phone: `07862023832`
 - Email: `info@badwicare.com`
-- Address: `Badwi Care & Companionship, [Add Address Here]`
+- Address: `Badwi Care and Companionship Service, [Add Address Here]`
 - Office hours: `Monday - Friday, 9am - 5pm`
 
 Replace `[Add Address Here]` in `contact.html` when the final address is confirmed.

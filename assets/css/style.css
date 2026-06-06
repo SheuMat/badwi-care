@@ -1,14 +1,14 @@
 :root {
-  --primary: #6fb4dc;
-  --primary-dark: #245f7a;
-  --sage: #d9edf8;
-  --mint: #f2f9fd;
-  --cream: #f8fbfd;
+  --primary: #9468AC;
+  --primary-dark: #360D4A;
+  --sage: #eadff0;
+  --mint: #f8f4fa;
+  --cream: #fdfbfe;
   --text: #1f2933;
   --muted: #586672;
   --white: #ffffff;
-  --border: #cfe5f2;
-  --shadow: 0 18px 45px rgba(36, 95, 122, 0.14);
+  --border: #dfcfe8;
+  --shadow: 0 18px 45px rgba(54, 13, 74, 0.14);
 }
 
 * {
@@ -87,7 +87,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(248, 251, 253, 0.96);
+  background: rgba(253, 251, 254, 0.96);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(10px);
 }
@@ -267,7 +267,7 @@ img {
 .slide-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(10, 45, 66, 0.9), rgba(36, 95, 122, 0.64), rgba(111, 180, 220, 0.2));
+  background: linear-gradient(90deg, rgba(54, 13, 74, 0.9), rgba(54, 13, 74, 0.66), rgba(148, 104, 172, 0.22));
 }
 
 .slide-content {
@@ -278,10 +278,10 @@ img {
   padding: clamp(1.25rem, 4vw, 2rem);
   border-left: 6px solid var(--primary);
   border-radius: 8px;
-  background: rgba(10, 45, 66, 0.76);
+  background: rgba(54, 13, 74, 0.76);
   box-shadow: var(--shadow);
   color: var(--white);
-  text-shadow: 0 2px 18px rgba(12, 42, 58, 0.5);
+  text-shadow: 0 2px 18px rgba(26, 8, 36, 0.5);
   backdrop-filter: blur(4px);
 }
 
@@ -289,15 +289,16 @@ img {
   margin: 0;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 900;
-  letter-spacing: 0.08em;
+  font-size: clamp(0.78rem, 1.2vw, 0.95rem);
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-slider .slide-content h1 {
   margin: 0.4rem 0 0.8rem;
   color: var(--white);
-  font-size: clamp(2.2rem, 5vw, 4rem);
-  line-height: 1.1;
+  font-size: clamp(1.65rem, 3.4vw, 2.8rem);
+  line-height: 1.14;
 }
 
 .hero-slider .slide-content span {
@@ -305,7 +306,7 @@ img {
   max-width: 620px;
   margin-bottom: 1.4rem;
   color: rgba(255, 255, 255, 0.92);
-  font-size: clamp(1.1rem, 2vw, 1.32rem);
+  font-size: clamp(0.98rem, 1.45vw, 1.12rem);
   font-weight: 700;
   line-height: 1.55;
 }
@@ -321,7 +322,7 @@ img {
   height: 48px;
   border: 2px solid rgba(255, 255, 255, 0.72);
   border-radius: 50%;
-  background: rgba(36, 95, 122, 0.5);
+  background: rgba(54, 13, 74, 0.5);
   color: var(--white);
   font-size: 2rem;
   line-height: 1;
@@ -424,7 +425,7 @@ img {
 
 .button:hover,
 .button:focus {
-  outline: 3px solid rgba(111, 180, 220, 0.34);
+  outline: 3px solid rgba(148, 104, 172, 0.34);
   outline-offset: 2px;
 }
 
@@ -722,7 +723,7 @@ p {
 .form textarea:focus,
 .form select:focus {
   border-color: var(--primary-dark);
-  outline: 3px solid rgba(111, 180, 220, 0.28);
+  outline: 3px solid rgba(148, 104, 172, 0.28);
 }
 
 .map-placeholder {
@@ -872,7 +873,7 @@ p {
   }
 
   .slide-overlay {
-    background: linear-gradient(180deg, rgba(20, 70, 98, 0.28), rgba(20, 70, 98, 0.86));
+    background: linear-gradient(180deg, rgba(54, 13, 74, 0.28), rgba(54, 13, 74, 0.88));
   }
 
   .slide-content {
@@ -928,11 +929,11 @@ p {
   }
 
   .slide-content h1 {
-    font-size: clamp(2rem, 10vw, 3rem);
+    font-size: clamp(1.65rem, 8vw, 2.45rem);
   }
 
   .slide-content span {
-    font-size: 1.08rem;
+    font-size: 0.98rem;
   }
 
   .button {

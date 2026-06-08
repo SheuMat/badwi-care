@@ -87,8 +87,8 @@ img {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(253, 251, 254, 0.96);
-  border-bottom: 1px solid var(--border);
+  background: var(--primary-dark);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(10px);
 }
 
@@ -111,6 +111,9 @@ img {
   display: inline-flex;
   align-items: center;
   flex: 0 0 auto;
+  padding: 0.35rem 0.55rem;
+  border-radius: 6px;
+  background: var(--white);
 }
 
 .brand img {
@@ -134,7 +137,7 @@ img {
 .nav-parent {
   padding: 0.36rem 0.46rem;
   border-radius: 6px;
-  color: var(--primary-dark);
+  color: var(--white);
   font-size: 0.76rem;
   font-weight: 700;
 }
@@ -175,6 +178,7 @@ img {
 .submenu a {
   display: block;
   padding: 0.44rem 0.58rem;
+  color: var(--primary-dark);
   font-size: 0.78rem;
   line-height: 1.25;
 }
@@ -188,8 +192,14 @@ img {
 .main-nav a:hover,
 .main-nav a:focus,
 .main-nav a[aria-current="page"] {
-  background: var(--sage);
+  background: rgba(255, 255, 255, 0.16);
   outline: none;
+}
+
+.submenu a:hover,
+.submenu a:focus,
+.submenu a[aria-current="page"] {
+  background: var(--sage);
 }
 
 .header-phone {
@@ -199,7 +209,7 @@ img {
   min-height: 36px;
   padding: 0.36rem 0.6rem;
   border-radius: 6px;
-  background: var(--primary-dark);
+  background: var(--primary);
   color: var(--white);
   font-size: 0.78rem;
   font-weight: 800;
@@ -819,6 +829,17 @@ p {
     background: var(--cream);
     border-bottom: 1px solid var(--border);
     box-shadow: var(--shadow);
+  }
+
+  .nav-wrap .main-nav a,
+  .nav-wrap .nav-parent {
+    color: var(--primary-dark);
+  }
+
+  .nav-wrap .main-nav a:hover,
+  .nav-wrap .main-nav a:focus,
+  .nav-wrap .main-nav a[aria-current="page"] {
+    background: var(--sage);
   }
 
   .nav-wrap.is-open {

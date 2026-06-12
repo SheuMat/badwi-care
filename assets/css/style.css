@@ -60,7 +60,7 @@ img {
 .top-strip {
   background: var(--primary-dark);
   color: var(--white);
-  font-size: 0.72rem;
+  font-size: 1.05rem;
 }
 
 .top-strip-inner {
@@ -68,7 +68,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  min-height: 30px;
+  min-height: 44px;
 }
 
 .top-strip a,
@@ -206,18 +206,18 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 36px;
-  padding: 0.36rem 0.6rem;
+  min-height: 48px;
+  padding: 0.54rem 0.95rem;
   border-radius: 6px;
   background: var(--primary);
   color: var(--white);
-  font-size: 0.78rem;
+  font-size: 1.1rem;
   font-weight: 800;
   white-space: nowrap;
 }
 
 .site-header .header-phone {
-  font-size: 0.76rem;
+  font-size: 1.1rem;
 }
 
 .menu-toggle {

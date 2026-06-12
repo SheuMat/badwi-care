@@ -9,7 +9,6 @@ This repository now includes a simple static HTML, CSS and JavaScript website fo
 - `services.html`
 - `companionship.html`
 - `sitting-service.html`
-- `social-activities.html`
 - `meal-preparation.html`
 - `domestic-support.html`
 - `shopping-support.html`

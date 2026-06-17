@@ -7,6 +7,7 @@ This repository now includes a simple static HTML, CSS and JavaScript website fo
 - `index.html`
 - `about.html`
 - `services.html`
+- `24-hour-care.html`
 - `companionship.html`
 - `sitting-service.html`
 - `meal-preparation.html`
